@@ -1,0 +1,482 @@
+2017-Dec-24 01:05:31.848736 INFO [simplewallet] londoncoin wallet v1.1.1.1()
+2017-Dec-24 01:05:53.078081 ERROR [simplewallet] Error: wallet failed to connect to daemon (http://localhost:18232).
+2017-Dec-24 01:05:53.104221 INFO [simplewallet] Generated new wallet: cz3PTmbSgX7Md9JgTomKcTj6yS4mghP4oMZ9hjTos8Z67qLeP4dwakqE4EprMxVPGvVwaAwMunxijgTCqJ44yheq2qyDvqzwp
+2017-Dec-24 01:05:53.104221 INFO [simplewallet] view key: 53365a232b8e9ae88fa4e0cc7a866d796bab357b280141890f977eb8eb430209
+2017-Dec-24 01:05:53.104590 INFO [simplewallet] **********************************************************************
+Your wallet has been generated.
+Use "help" command to see the list of available commands.
+Always use "exit" command when closing simplewallet to save
+current session's state. Otherwise, you will possibly need to synchronize 
+your wallet again. Your wallet key is NOT under risk anyway.
+**********************************************************************
+2017-Dec-24 01:06:07.797193 INFO [simplewallet] Commands: 
+  address              Show current wallet public address
+  balance              Show current wallet balance
+  bc_height            Show blockchain height
+  exit                 Close wallet
+  help                 Show this help
+  incoming_transfers   Show incoming transfers
+  list_transfers       Show all known transfers
+  payments             payments <payment_id_1> [<payment_id_2> ... <payment_id_N>] - Show payments <payment_id_1>, ... <payment_id_N>
+  reset                Discard cache data and start synchronizing from the start
+  save                 Save wallet synchronized data
+  set_log              set_log <level> - Change current log level, <level> is a number 0-4
+  start_mining         start_mining [<number_of_threads>] - Start mining in daemon
+  stop_mining          Stop mining in daemon
+  transfer             transfer <mixin_count> <addr_1> <amount_1> [<addr_2> <amount_2> ... <addr_N> <amount_N>] [-p payment_id] [-f fee] - Transfer <amount_1>,... <amount_N> to <address_1>,... <address_N>, respectively. <mixin_count> is the number of transactions yours is indistinguishable from (from 0 to maximum available)
+  
+
+2017-Dec-24 01:06:12.275561 INFO [simplewallet] cz3PTmbSgX7Md9JgTomKcTj6yS4mghP4oMZ9hjTos8Z67qLeP4dwakqE4EprMxVPGvVwaAwMunxijgTCqJ44yheq2qyDvqzwp
+2017-Dec-24 01:06:18.779748 INFO [simplewallet] 0
+2017-Dec-24 01:06:22.892992 INFO [simplewallet] Wallet data saved
+2017-Dec-24 01:06:30.643956 INFO [simplewallet] Wallet closed
+2017-Dec-24 15:12:06.622760 INFO [simplewallet] londoncoin wallet v1.1.1.1()
+2017-Dec-24 15:12:22.043146 INFO [simplewallet] Loading wallet...
+2017-Dec-24 15:12:22.069638 INFO [simplewallet] Opened wallet: cz3PTmbSgX7Md9JgTomKcTj6yS4mghP4oMZ9hjTos8Z67qLeP4dwakqE4EprMxVPGvVwaAwMunxijgTCqJ44yheq2qyDvqzwp
+2017-Dec-24 15:12:22.069780 INFO [simplewallet] **********************************************************************
+Use "help" command to see the list of available commands.
+**********************************************************************
+2017-Dec-24 15:12:33.910255 INFO [simplewallet] Commands: 
+  address              Show current wallet public address
+  balance              Show current wallet balance
+  bc_height            Show blockchain height
+  exit                 Close wallet
+  help                 Show this help
+  incoming_transfers   Show incoming transfers
+  list_transfers       Show all known transfers
+  payments             payments <payment_id_1> [<payment_id_2> ... <payment_id_N>] - Show payments <payment_id_1>, ... <payment_id_N>
+  reset                Discard cache data and start synchronizing from the start
+  save                 Save wallet synchronized data
+  set_log              set_log <level> - Change current log level, <level> is a number 0-4
+  start_mining         start_mining [<number_of_threads>] - Start mining in daemon
+  stop_mining          Stop mining in daemon
+  transfer             transfer <mixin_count> <addr_1> <amount_1> [<addr_2> <amount_2> ... <addr_N> <amount_N>] [-p payment_id] [-f fee] - Transfer <amount_1>,... <amount_N> to <address_1>,... <address_N>, respectively. <mixin_count> is the number of transactions yours is indistinguishable from (from 0 to maximum available)
+  
+
+2017-Dec-24 15:12:44.604689 INFO [simplewallet] Mining started in daemon
+2017-Dec-24 15:12:47.112897 INFO [simplewallet] Height 1, transaction 2dce8756bd0ef0e5db1fd5f9b280fa25dfcd0385e89c5db4622d8a8da687b780, received 703684.75742208
+2017-Dec-24 15:12:47.113096 INFO [simplewallet] Height 2, transaction 6d36d7cfcf0dc1acbe0f42834f276e0592dd480031884eb7807199daeb9ff28a, received 703682.07307776
+2017-Dec-24 15:12:47.113225 INFO [simplewallet] Height 3, transaction 0a63a834143a91e2e34d3b8eddad71916e1af7d3f588e3178b8ad1f13c263691, received 703679.38874367
+2017-Dec-24 15:14:17.105385 INFO [simplewallet] Height 4, transaction 9d71b72ce6d59e83021096b1b28607c1c2f20f861e8a007b0b6c0f68460baa60, received 703676.70441983
+2017-Dec-24 15:15:04.914262 INFO [simplewallet] Mining stopped in daemon
+2017-Dec-24 15:15:07.150298 INFO [simplewallet] Wallet closed
+2017-Dec-24 15:15:29.070602 INFO [simplewallet] londoncoin wallet v1.1.1.1()
+2017-Dec-24 15:15:51.275896 ERROR [simplewallet] Error: failed to read wallet password
+2017-Dec-24 15:15:51.276050 ERROR [simplewallet] Failed to initialize wallet
+2017-Dec-24 15:17:52.538678 INFO [simplewallet] londoncoin wallet v1.1.1.1()
+2017-Dec-24 15:17:52.538993 INFO [simplewallet] Loading wallet...
+2017-Dec-24 15:17:52.565988 ERROR [simplewallet] Error: failed to load wallet: can't load wallet file 'wallet.bin.wallet', check password
+2017-Dec-24 15:17:52.566095 ERROR [simplewallet] Failed to initialize wallet
+2017-Dec-24 15:17:57.539880 ERROR [simplewallet] Error: wallet failed to connect to daemon (http://localhost:18232).
+2017-Dec-24 15:18:08.746088 INFO [simplewallet] londoncoin wallet v1.1.1.1()
+2017-Dec-24 15:18:08.746423 INFO [simplewallet] Loading wallet...
+2017-Dec-24 15:18:08.772937 ERROR [simplewallet] Error: failed to load wallet: can't load wallet file 'wallet.bin.wallet', check password
+2017-Dec-24 15:18:08.773101 ERROR [simplewallet] Failed to initialize wallet
+2017-Dec-24 15:18:13.747318 ERROR [simplewallet] Error: wallet failed to connect to daemon (http://localhost:18232).
+2017-Dec-24 15:18:23.013128 INFO [simplewallet] londoncoin wallet v1.1.1.1()
+2017-Dec-24 15:18:23.013510 INFO [simplewallet] Loading wallet...
+2017-Dec-24 15:18:23.039401 INFO [simplewallet] Opened wallet: cz3PTmbSgX7Md9JgTomKcTj6yS4mghP4oMZ9hjTos8Z67qLeP4dwakqE4EprMxVPGvVwaAwMunxijgTCqJ44yheq2qyDvqzwp
+2017-Dec-24 15:18:23.039579 INFO [simplewallet] **********************************************************************
+Use "help" command to see the list of available commands.
+**********************************************************************
+2017-Dec-24 15:18:28.267639 INFO [simplewallet] Wallet closed
+2017-Dec-24 15:18:40.781697 INFO [simplewallet] londoncoin wallet v1.1.1.1()
+2017-Dec-24 15:18:40.782008 INFO [simplewallet] Loading wallet...
+2017-Dec-24 15:18:40.808777 INFO [simplewallet] Opened wallet: cz3PTmbSgX7Md9JgTomKcTj6yS4mghP4oMZ9hjTos8Z67qLeP4dwakqE4EprMxVPGvVwaAwMunxijgTCqJ44yheq2qyDvqzwp
+2017-Dec-24 15:18:40.808896 INFO [simplewallet] **********************************************************************
+Use "help" command to see the list of available commands.
+**********************************************************************
+2017-Dec-24 15:19:25.910332 INFO [simplewallet] Commands: 
+  address              Show current wallet public address
+  balance              Show current wallet balance
+  bc_height            Show blockchain height
+  exit                 Close wallet
+  help                 Show this help
+  incoming_transfers   Show incoming transfers
+  list_transfers       Show all known transfers
+  payments             payments <payment_id_1> [<payment_id_2> ... <payment_id_N>] - Show payments <payment_id_1>, ... <payment_id_N>
+  reset                Discard cache data and start synchronizing from the start
+  save                 Save wallet synchronized data
+  set_log              set_log <level> - Change current log level, <level> is a number 0-4
+  start_mining         start_mining [<number_of_threads>] - Start mining in daemon
+  stop_mining          Stop mining in daemon
+  transfer             transfer <mixin_count> <addr_1> <amount_1> [<addr_2> <amount_2> ... <addr_N> <amount_N>] [-p payment_id] [-f fee] - Transfer <amount_1>,... <amount_N> to <address_1>,... <address_N>, respectively. <mixin_count> is the number of transactions yours is indistinguishable from (from 0 to maximum available)
+  
+
+2017-Dec-24 15:19:30.290027 INFO [simplewallet] Mining started in daemon
+2017-Dec-24 15:19:35.841321 INFO [simplewallet] Height 5, transaction 03930f6d38608f9db64b4bc70752233a4cde7bf48b2751db4d9a4cf747aa444e, received 703674.02010623
+2017-Dec-24 15:19:35.841577 INFO [simplewallet] Height 6, transaction 1a17cee9154d7b986e0fc8ac9b48314e8631c15f5b81e58a8c645415fb83d324, received 703671.33580287
+2017-Dec-24 15:19:55.841837 INFO [simplewallet] Height 7, transaction 2c058ef2b04ce0561eef35f49e72ad4897fc0f3a9cc28c22f22f37aa28864c38, received 703668.65150975
+2017-Dec-24 15:20:00.841817 INFO [simplewallet] Height 8, transaction 2ac649d455adaab1e20cf09282c4d6586510eee54828190d6508d6f60d7d987f, received 703665.96722687
+2017-Dec-24 15:20:10.841841 INFO [simplewallet] Height 9, transaction db5c554fa1eadff3bff21daf601adeb3790bcae1a9b76cd59c0a8db92df50df2, received 703663.28295423
+2017-Dec-24 15:20:15.841355 INFO [simplewallet] Height 10, transaction 37d2cb17b46166ccac445e1e3eb4a64ed052a33e79519bd417b5f5de5220593a, received 703660.59869183
+2017-Dec-24 15:21:05.845896 INFO [simplewallet] Height 11, transaction 763537a3ad70468aa41c25f25d892af6024f64799addb6fbd93b6468ccc819dc, received 703657.91443967
+2017-Dec-24 15:21:45.849378 INFO [simplewallet] Height 12, transaction 31217eba69b7c9b3c1a12217956f46d32fb1058f2548d4fe13b4fd9b94df940e, received 703655.23019775
+2017-Dec-24 15:21:50.849867 INFO [simplewallet] Height 13, transaction 693a77f84bfd53c349392084d05b62cf896b8ec043dc4697d22dfb4d5371f9fe, received 703652.54596606
+2017-Dec-24 15:22:00.853821 INFO [simplewallet] Height 14, transaction f742c45ad4ba83482b3c2a56f9ba3369c24a926028e095a29d4dae7ba973dd38, received 703649.86174462
+2017-Dec-24 15:22:20.853990 INFO [simplewallet] Height 15, transaction 10d1a2da55e6bb83b867968e1fde8310d7bec60d7a3a944653bce9049a3d447d, received 703647.17753342
+2017-Dec-24 15:23:10.856411 INFO [simplewallet] Height 16, transaction 467bd168b66d6014b017add4368d4f8f4dfe9bf4368abc4688c206adf02a899b, received 703644.49333245
+2017-Dec-24 15:23:15.856712 INFO [simplewallet] Height 17, transaction 49e1298ee0e7c4baf7f1074e8fb97facf6914b121bd22d83e232e6c75d2468ec, received 703641.80914173
+2017-Dec-24 15:23:30.861869 INFO [simplewallet] Height 18, transaction 74139eb5703a2ef32016bd7a6eeb843e43894b90164e013bd877aeef8ee7137d, received 703639.12496124
+2017-Dec-24 15:24:55.873369 INFO [simplewallet] Height 19, transaction 8129f25f5e3e251e1189bc9c7cdb9ff5a84dfef1c68cfb5401ff2d8ecd439bdc, received 703636.44079100
+2017-Dec-24 15:25:40.877921 INFO [simplewallet] Height 20, transaction f3bac812f930e199ac7e2b8db8365a244e4d6c4e7946deebb07700ea362ca470, received 703633.75663099
+2017-Dec-24 15:25:45.877388 INFO [simplewallet] Height 21, transaction e04e983068871b12f35f24fd8a6dc1c28b15f89dedab4093421b51643997132c, received 703631.07248122
+2017-Dec-24 15:26:05.877923 INFO [simplewallet] Height 22, transaction cbbfa18c88043d14a1f2ef28628b04afdf982eb7cea679ab014cccd7fd08ae82, received 703628.38834169
+2017-Dec-24 15:28:35.893464 INFO [simplewallet] Height 23, transaction e6d761f3a2a1467100ec7b517e8595c1de5add708d30908f5813c5cf495011d4, received 703625.70421241
+2017-Dec-24 15:28:55.852866 INFO [simplewallet] Height 24, transaction 8428f2eac6f67de855228a541f5751894793a4403abf452fcadb4c422bc19d4a, received 703623.02009336
+2017-Dec-24 15:29:55.861323 INFO [simplewallet] Height 25, transaction efd9e05cd1f1306c0bee754c2d11e54c7fa7d26677a7c07263a57ea0367f3eb2, received 703620.33598455
+2017-Dec-24 15:30:10.901825 INFO [simplewallet] Height 26, transaction d1fe474864fb64ea33f307d7a99de35b392e3341c6323ce1a250971c97366124, received 703617.65188597
+2017-Dec-24 15:30:35.901909 INFO [simplewallet] Height 27, transaction 1cd7ff4421b57926eb99b1e99a2a6f89455e7995cb6db67c6d85ed4dd80865f8, received 703614.96779764
+2017-Dec-24 15:31:35.909805 INFO [simplewallet] Height 28, transaction 1a20944ce7603ae02138a8103b21e8206b0f50776af73ead9d892f8603a78429, received 703612.28371955
+2017-Dec-24 15:33:30.912661 INFO [simplewallet] Height 29, transaction fd1bb57b30c7ac2f0feb9741fa14e64a168353664fea20612ba9874911de875e, received 703609.59965169
+2017-Dec-24 15:34:35.925380 INFO [simplewallet] Height 30, transaction 7fb325658e1a7f4a5455605e079b1bd1fe514923ad9ae89e4066d2f84525974f, received 703606.91559408
+2017-Dec-24 15:34:45.925387 INFO [simplewallet] Height 31, transaction 0939f4387b0be9224bed7ea79b4052a3ee6ba378751abfccba6edc87617f563e, received 703604.23154670
+2017-Dec-24 15:35:25.929422 INFO [simplewallet] Height 32, transaction 219abe8230176d2169651f2bb0d8ce069b4f9bdca8a99d7bcf36c7b5cfb339be, received 703601.54750956
+2017-Dec-24 15:35:40.930002 INFO [simplewallet] Height 33, transaction b80b4d2a98d29495d49f641fc4122659515124b8bdef59bdca5d622b154bf8b6, received 703598.86348266
+2017-Dec-24 15:36:10.933874 INFO [simplewallet] Height 34, transaction 7904d78e8975dc8f0c0e41a2258dc860680f49bbe30dd6a289fa86ff5f016198, received 703596.17946600
+2017-Dec-24 15:37:30.941876 INFO [simplewallet] Height 35, transaction 43f0a2532a7053f2714ff0efa9faa6ade13ce240a77baeef4055c462aaab2cda, received 703593.49545958
+2017-Dec-24 15:40:55.961426 INFO [simplewallet] Height 36, transaction 120d33e73547f524617f85b1c0e4f64b173f9b484f4565491d33f93cef0429fb, received 703590.81146340
+2017-Dec-24 15:42:15.969886 INFO [simplewallet] Height 37, transaction 0056e4dbd1e4fd369d93cf7d6785f9e0ecc95555c3ad8e880c33fb45961aa452, received 703588.12747745
+2017-Dec-24 15:43:05.972290 INFO [simplewallet] Height 38, transaction ba9f12a5254a0bc8598ad5ca9eecc1baf7b985c1aa9ef8be61258b642f274cfe, received 703585.44350175
+2017-Dec-24 15:43:30.973839 INFO [simplewallet] Height 39, transaction 43ca0647395c6827b619f571c511d2c3de631f710982151f3c10bc3b86641199, received 703582.75953628
+2017-Dec-24 15:48:41.008915 INFO [simplewallet] Height 40, transaction 8516c3c5b3770957870edfaa45e2dc84576c7225670965112b493010132b161b, received 703580.07558105
+2017-Dec-24 15:49:46.017842 INFO [simplewallet] Height 41, transaction d0405d066d400a38678ef0f1455d4e4ca9c3fe6d797f83f39ba5e22d9d6a2319, received 703577.39163606
+2017-Dec-24 15:51:31.029371 INFO [simplewallet] Height 42, transaction 8159881f10e3511bd17d999a892f655cea997650fd3d3d18d1bc52b938c757b2, received 703574.70770131
+2017-Dec-24 15:55:16.495080 INFO [simplewallet] Height 43, transaction 9bf6097728a0009269cfb8d9263b87b9d918848488a8af0ed4296f607edaa83b, received 703572.02377679
+2017-Dec-24 15:55:16.495223 INFO [simplewallet] Height 44, transaction 5029d9f1e44aeb21d520897042b28e28e979877ad264805a33090350e65927b7, received 703569.33986252
+2017-Dec-24 15:56:51.711763 INFO [simplewallet] Height 45, transaction 7be6b727b5e15958d21940726a8ec0e8a3fa28476cc0c3702e0164b11157b930, received 703566.65595848
+2017-Dec-24 15:56:56.724313 INFO [simplewallet] Height 46, transaction 9f1639effaaf110dc459b4a9bf364fdaef8a24258e244008fb4e7cb2b9779986, received 703563.97206468
+2017-Dec-24 15:57:56.898339 INFO [simplewallet] Height 47, transaction 8e5d5726968ac39ffb6baecbad7bbf5567b173bbefdc44ea3f40dedba95dabf5, received 703561.28818112
+2017-Dec-24 15:59:42.149988 INFO [simplewallet] Height 48, transaction 7a0536b2d69ae2278b287ecdda2c15aa058d3935bfee2877566c3b0a2fed7748, received 703558.60430780
+2017-Dec-24 16:01:37.417195 INFO [simplewallet] Height 49, transaction 4b3b6656addba2995153ea4e6706202e803748351ba2c6d74462382a00e014ab, received 703555.92044472
+2017-Dec-24 16:08:18.336721 INFO [simplewallet] Height 50, transaction fe1c3be965ca5ba1fb1194b3db06509d16f0d382de75e246eb35c7323c1f7560, received 703553.23659187
+2017-Dec-24 16:10:08.606570 INFO [simplewallet] Height 51, transaction 47aaa704e4c99122a1a600b3b98f3d336047e5569f38504267b7f7f4d9614b59, received 703550.55274926
+2017-Dec-24 16:25:20.788641 INFO [simplewallet] Height 52, transaction 332152c9bc2cd9284377958c4978e5dad4283dc30393d47f8cc30c7105c18134, received 703547.86891689
+2017-Dec-24 16:25:30.838513 INFO [simplewallet] Height 53, transaction eeb24c957ff57f95f6d3e036a9deb93f30e9ce6f827afc0aeff7578534a4952c, received 703545.18509476
+2017-Dec-24 16:28:26.226028 INFO [simplewallet] Height 54, transaction d286c462aa3ae6de6b323ff95b93a5585e36841798f15f358596c8629c160ef9, received 703542.50128287
+2017-Dec-24 16:31:26.637307 INFO [simplewallet] Height 55, transaction e6b9c652b465a8c50e9d2f9f5fb945a2b639cd622748b99aa2ae94010f0da5e1, received 703539.81748121
+2017-Dec-24 16:38:37.647466 INFO [simplewallet] Height 56, transaction da1dba3ce8cd7317655425212431bf1b8a4e6d8b38f1f8602a19a0d5ffc9190f, received 703537.13368979
+2017-Dec-24 16:38:37.647623 INFO [simplewallet] Height 57, transaction 3a6949a5225877c1e9c723b74d13dfaff26f5aff90acd36f1889c03b526b06f5, received 703534.44990861
+2017-Dec-24 16:39:52.769946 INFO [simplewallet] Height 58, transaction 9f873b6b1c1cfee8ecb29e39842a3f754aeb65f235f8423dba6c54eea03e55f5, received 703531.76613767
+2017-Dec-24 16:42:38.150014 INFO [simplewallet] Height 59, transaction 7b8fcd0bdfccf233eeb577a8c8d7b59f931ab1316bb2a887a53efd9b1582dee4, received 703529.08237697
+2017-Dec-24 16:44:48.428976 INFO [simplewallet] Height 60, transaction 33a593a1422c6059544829626511ff9e400cc454d0680a151deb9f5f92bc81a6, received 703526.39862650
+2017-Dec-24 16:46:38.610712 INFO [simplewallet] Height 61, transaction 1ab71f29d2f30c1ad602301eaaf3e2a5e8caa8a23624567ed6a215d06c7645bf, received 703523.71488627
+2017-Dec-24 16:46:53.661911 INFO [simplewallet] Height 62, transaction 7a683b5cea96275727d90f791e2febdfae240229e41bf75b492fde07a357d6e6, received 703521.03115628
+2017-Dec-24 16:55:49.805995 INFO [simplewallet] Height 63, transaction 92e2ed9fa4780096870a74bdf62b61bd8488e9345693562a04f82d79fa6d26d9, received 703518.34743652
+2017-Dec-24 16:55:59.822558 INFO [simplewallet] Height 64, transaction 6ef7ad3212b55425f0f00d59f3fd32843134aaa6888cf34a1fad9a03bad63143, received 703515.66372701
+2017-Dec-24 17:14:52.434027 INFO [simplewallet] Height 65, transaction 4bf3eb928b1eaff8553da22e06e390b04cde32168e645bf21d3b73092bc54cf2, received 703512.98002773
+2017-Dec-24 17:15:37.524355 INFO [simplewallet] Height 66, transaction 931868d59a6511dfd51c8ad220be4e0c724ea85e105f8498d0810bf37cdc3aff, received 703510.29633869
+2017-Dec-24 17:18:27.914325 INFO [simplewallet] Height 67, transaction fd328a04bdfd954e92a4e626d2b14c103f95b20efd8dceedd47b40c201663981, received 703507.61265988
+2017-Dec-24 17:32:29.932591 INFO [simplewallet] Height 68, transaction 9055c1fdc315f46729ca20eb0e9a03274c40362cda26628c517f5f987dedb4e5, received 703504.92899132
+2017-Dec-24 17:32:34.929968 INFO [simplewallet] Height 69, transaction 6d1037744cfbb9718d3725d789b1b469d56d5d26e512b339375915bc5ae37d5a, received 703502.24533299
+2017-Dec-24 17:40:06.027237 INFO [simplewallet] Height 70, transaction bcd860c3661b62b1dc27adc7790fc8689f9ed8712a3426c4ca86acbffc44c82f, received 703499.56168490
+2017-Dec-24 17:41:06.145910 INFO [simplewallet] Height 71, transaction a4f6f834637ebccdcbc411a1920420cbe4d4808e10760b525b59e5228abf4f58, received 703496.87804704
+2017-Dec-24 17:45:26.706502 INFO [simplewallet] Height 72, transaction 75bf50651dd7446fe2672940eb972303b3e01c3c9b08c66acd678c68c2b1179c, received 703494.19441943
+2017-Dec-24 17:48:22.096769 INFO [simplewallet] Height 73, transaction e3672ecf897dcfdb5ffd31d48914c6b79ea9f806e47e47f43c88ad4f3bfbee3e, received 703491.51080205
+2017-Dec-24 17:50:27.437306 INFO [simplewallet] Height 74, transaction 4829b743f273b7a7218b12cddd539e0ee86e762a5ea07e7438e7fdec1fc313ee, received 703488.82719490
+2017-Dec-24 17:53:27.766634 INFO [simplewallet] Height 75, transaction 83130216060eceb1f6ae130f71e442509cc91daefba669c7cbaffb12e419fde6, received 703486.14359800
+2017-Dec-24 17:55:17.901652 INFO [simplewallet] Height 76, transaction fae09d122de02d0d980a6c5d2f967e2a7418dc7ab581f21b0b0bad96432d0b77, received 703483.46001133
+2017-Dec-24 17:59:23.498009 INFO [simplewallet] Height 77, transaction 8ba7f4e2504c4782d2d90c8529785fcd9bb52ba7cda0476a2f620635801a2630, received 703480.77643490
+2017-Dec-24 18:01:43.830105 INFO [simplewallet] Height 78, transaction 9624fcb6fcb72480f514f89638520228c2a9e57dbdb55924d288c459525b7526, received 703478.09286870
+2017-Dec-24 18:03:24.080308 INFO [simplewallet] Height 79, transaction 9045ae6b51907b188a7aebc719a12f5b03e0fe05ce8204e247e7e765cef8ed6c, received 703475.40931275
+2017-Dec-24 18:08:34.777436 INFO [simplewallet] Height 80, transaction 11d5b46e4c0dfe640788b73c826221e10f61441c223ab0006651e06bee82d182, received 703472.72576703
+2017-Dec-24 18:08:49.784746 INFO [simplewallet] Height 81, transaction 4c02f5760fc4c3091e1b092334b966bba7ccba81d9ddde1e47998c5444a38d6d, received 703470.04223154
+2017-Dec-24 18:09:24.943557 INFO [simplewallet] Height 82, transaction 1e9f59cb3d5c99851093315f006d6cdfe180834bd301c0347c23a3aaf3b0ac69, received 703467.35870630
+2017-Dec-24 18:10:30.037204 INFO [simplewallet] Height 83, transaction 9f4efdce8caafb1c04763d627dbe10abd67ff8aa1e09d60e3ada0c74b17280f4, received 703464.67519129
+2017-Dec-24 18:16:10.895102 INFO [simplewallet] Height 84, transaction 5ffbd947678f99b61b047b6d0a1a463e5d597b8426fdeeb2be64d5a1050f04e4, received 703461.99168651
+2017-Dec-24 18:17:00.965918 INFO [simplewallet] Height 85, transaction c4ff5d996a4de1ebe4450bd37ba06bd2e7d7ae65e307d7987801e9949321ed0b, received 703459.30819198
+2017-Dec-24 18:18:41.146481 INFO [simplewallet] Height 86, transaction 1ef4b0b354c482aae354dc1dd1dbfc4c3567d34ca1ac47c42a8b982b66c8c9f9, received 703456.62470768
+2017-Dec-24 18:19:26.266444 INFO [simplewallet] Height 87, transaction b49a118fc5f900f8e2c44469157dfda2fe4ca3738ca9e6fc3d1ebe5a141a3367, received 703453.94123361
+2017-Dec-24 18:21:01.546080 INFO [simplewallet] Height 88, transaction 3f0a16dbd9c68a3f4e29553436f0df6fe87c011f2ffe03c986dcc75ecf19695e, received 703451.25776979
+2017-Dec-24 18:23:26.887467 INFO [simplewallet] Height 89, transaction 7c527c16f9326d750498532daaf08a4848768a6ddb5bc68b41fd5fdc3adb80ba, received 703448.57431620
+2017-Dec-24 18:23:36.880760 INFO [simplewallet] Height 90, transaction a301f35f26d3ebf736088c0ba6d43de30c32e8455709dd5677d316e52469fd40, received 703445.89087285
+2017-Dec-24 18:23:56.942103 INFO [simplewallet] Height 91, transaction 11f92b0dac628cb58e83ab1db7bbb437d896498a2390ea73c3f9f4cdbacc909f, received 703443.20743973
+2017-Dec-24 18:27:27.456718 INFO [simplewallet] Height 92, transaction fb92d8237d8d6f8736aa9560215a0df74ad3e04ad729cc43491e1de10b34132e, received 703440.52401685
+2017-Dec-24 18:30:12.900021 INFO [simplewallet] Height 93, transaction 2479a48f0f5ba1c798ab5799759f709240ec4b8bb312e83cd4b5e4b987af7b76, received 703437.84060421
+2017-Dec-24 18:30:47.542643 INFO [simplewallet] Commands: 
+  address              Show current wallet public address
+  balance              Show current wallet balance
+  bc_height            Show blockchain height
+  exit                 Close wallet
+  help                 Show this help
+  incoming_transfers   Show incoming transfers
+  list_transfers       Show all known transfers
+  payments             payments <payment_id_1> [<payment_id_2> ... <payment_id_N>] - Show payments <payment_id_1>, ... <payment_id_N>
+  reset                Discard cache data and start synchronizing from the start
+  save                 Save wallet synchronized data
+  set_log              set_log <level> - Change current log level, <level> is a number 0-4
+  start_mining         start_mining [<number_of_threads>] - Start mining in daemon
+  stop_mining          Stop mining in daemon
+  transfer             transfer <mixin_count> <addr_1> <amount_1> [<addr_2> <amount_2> ... <addr_N> <amount_N>] [-p payment_id] [-f fee] - Transfer <amount_1>,... <amount_N> to <address_1>,... <address_N>, respectively. <mixin_count> is the number of transactions yours is indistinguishable from (from 0 to maximum available)
+  
+
+2017-Dec-24 18:30:52.970589 INFO [simplewallet] Height 94, transaction 779c6e5df46409c5c1ad73d23ecf6b6114c91b0df60e2a9f8198581677ae2b8b, received 703435.15720180
+2017-Dec-24 18:31:08.006516 INFO [simplewallet] Height 95, transaction 22b944eb8849ff108b7e624bfe599b726c22c34d9de03d91342d4706838264af, received 703432.47380963
+2017-Dec-24 18:31:14.654600 INFO [simplewallet]   timestamp (UTC)                                  hash                                    total amount            fee        block   unlock time
+2017-Dec-24 18:31:14.654760 INFO [simplewallet] -------------------------------------------------------------------------------------------------------------------------------------------------
+2017-Dec-24 18:31:14.654928 INFO [simplewallet] 2017-12-24 15:12:44  2dce8756bd0ef0e5db1fd5f9b280fa25dfcd0385e89c5db4622d8a8da687b780       703684.75742208      0.00000000        1           61
+2017-Dec-24 18:31:14.655061 INFO [simplewallet]  
+2017-Dec-24 18:31:14.655184 INFO [simplewallet] 2017-12-24 15:12:44  6d36d7cfcf0dc1acbe0f42834f276e0592dd480031884eb7807199daeb9ff28a       703682.07307776      0.00000000        2           62
+2017-Dec-24 18:31:14.656024 INFO [simplewallet]  
+2017-Dec-24 18:31:14.656116 INFO [simplewallet] 2017-12-24 15:12:44  0a63a834143a91e2e34d3b8eddad71916e1af7d3f588e3178b8ad1f13c263691       703679.38874367      0.00000000        3           63
+2017-Dec-24 18:31:14.656222 INFO [simplewallet]  
+2017-Dec-24 18:31:14.656300 INFO [simplewallet] 2017-12-24 15:14:12  9d71b72ce6d59e83021096b1b28607c1c2f20f861e8a007b0b6c0f68460baa60       703676.70441983      0.00000000        4           64
+2017-Dec-24 18:31:14.656400 INFO [simplewallet]  
+2017-Dec-24 18:31:14.656476 INFO [simplewallet] 2017-12-24 15:19:30  03930f6d38608f9db64b4bc70752233a4cde7bf48b2751db4d9a4cf747aa444e       703674.02010623      0.00000000        5           65
+2017-Dec-24 18:31:14.656576 INFO [simplewallet]  
+2017-Dec-24 18:31:14.656651 INFO [simplewallet] 2017-12-24 15:19:30  1a17cee9154d7b986e0fc8ac9b48314e8631c15f5b81e58a8c645415fb83d324       703671.33580287      0.00000000        6           66
+2017-Dec-24 18:31:14.656758 INFO [simplewallet]  
+2017-Dec-24 18:31:14.656933 INFO [simplewallet] 2017-12-24 15:19:48  2c058ef2b04ce0561eef35f49e72ad4897fc0f3a9cc28c22f22f37aa28864c38       703668.65150975      0.00000000        7           67
+2017-Dec-24 18:31:14.657033 INFO [simplewallet]  
+2017-Dec-24 18:31:14.657107 INFO [simplewallet] 2017-12-24 15:19:54  2ac649d455adaab1e20cf09282c4d6586510eee54828190d6508d6f60d7d987f       703665.96722687      0.00000000        8           68
+2017-Dec-24 18:31:14.657205 INFO [simplewallet]  
+2017-Dec-24 18:31:14.657301 INFO [simplewallet] 2017-12-24 15:20:06  db5c554fa1eadff3bff21daf601adeb3790bcae1a9b76cd59c0a8db92df50df2       703663.28295423      0.00000000        9           69
+2017-Dec-24 18:31:14.657401 INFO [simplewallet]  
+2017-Dec-24 18:31:14.657476 INFO [simplewallet] 2017-12-24 15:20:12  37d2cb17b46166ccac445e1e3eb4a64ed052a33e79519bd417b5f5de5220593a       703660.59869183      0.00000000       10           70
+2017-Dec-24 18:31:14.657570 INFO [simplewallet]  
+2017-Dec-24 18:31:14.657644 INFO [simplewallet] 2017-12-24 15:21:00  763537a3ad70468aa41c25f25d892af6024f64799addb6fbd93b6468ccc819dc       703657.91443967      0.00000000       11           71
+2017-Dec-24 18:31:14.657740 INFO [simplewallet]  
+2017-Dec-24 18:31:14.657813 INFO [simplewallet] 2017-12-24 15:21:42  31217eba69b7c9b3c1a12217956f46d32fb1058f2548d4fe13b4fd9b94df940e       703655.23019775      0.00000000       12           72
+2017-Dec-24 18:31:14.657908 INFO [simplewallet]  
+2017-Dec-24 18:31:14.657981 INFO [simplewallet] 2017-12-24 15:21:43  693a77f84bfd53c349392084d05b62cf896b8ec043dc4697d22dfb4d5371f9fe       703652.54596606      0.00000000       13           73
+2017-Dec-24 18:31:14.658081 INFO [simplewallet]  
+2017-Dec-24 18:31:14.658155 INFO [simplewallet] 2017-12-24 15:21:54  f742c45ad4ba83482b3c2a56f9ba3369c24a926028e095a29d4dae7ba973dd38       703649.86174462      0.00000000       14           74
+2017-Dec-24 18:31:14.658250 INFO [simplewallet]  
+2017-Dec-24 18:31:14.658324 INFO [simplewallet] 2017-12-24 15:22:18  10d1a2da55e6bb83b867968e1fde8310d7bec60d7a3a944653bce9049a3d447d       703647.17753342      0.00000000       15           75
+2017-Dec-24 18:31:14.694989 INFO [simplewallet]  
+2017-Dec-24 18:31:14.695143 INFO [simplewallet] 2017-12-24 15:23:06  467bd168b66d6014b017add4368d4f8f4dfe9bf4368abc4688c206adf02a899b       703644.49333245      0.00000000       16           76
+2017-Dec-24 18:31:14.695248 INFO [simplewallet]  
+2017-Dec-24 18:31:14.695331 INFO [simplewallet] 2017-12-24 15:23:12  49e1298ee0e7c4baf7f1074e8fb97facf6914b121bd22d83e232e6c75d2468ec       703641.80914173      0.00000000       17           77
+2017-Dec-24 18:31:14.695429 INFO [simplewallet]  
+2017-Dec-24 18:31:14.695503 INFO [simplewallet] 2017-12-24 15:23:24  74139eb5703a2ef32016bd7a6eeb843e43894b90164e013bd877aeef8ee7137d       703639.12496124      0.00000000       18           78
+2017-Dec-24 18:31:14.695599 INFO [simplewallet]  
+2017-Dec-24 18:31:14.695674 INFO [simplewallet] 2017-12-24 15:24:54  8129f25f5e3e251e1189bc9c7cdb9ff5a84dfef1c68cfb5401ff2d8ecd439bdc       703636.44079100      0.00000000       19           79
+2017-Dec-24 18:31:14.695768 INFO [simplewallet]  
+2017-Dec-24 18:31:14.695841 INFO [simplewallet] 2017-12-24 15:25:36  f3bac812f930e199ac7e2b8db8365a244e4d6c4e7946deebb07700ea362ca470       703633.75663099      0.00000000       20           80
+2017-Dec-24 18:31:14.695935 INFO [simplewallet]  
+2017-Dec-24 18:31:14.696008 INFO [simplewallet] 2017-12-24 15:25:42  e04e983068871b12f35f24fd8a6dc1c28b15f89dedab4093421b51643997132c       703631.07248122      0.00000000       21           81
+2017-Dec-24 18:31:14.696102 INFO [simplewallet]  
+2017-Dec-24 18:31:14.696182 INFO [simplewallet] 2017-12-24 15:26:00  cbbfa18c88043d14a1f2ef28628b04afdf982eb7cea679ab014cccd7fd08ae82       703628.38834169      0.00000000       22           82
+2017-Dec-24 18:31:14.696277 INFO [simplewallet]  
+2017-Dec-24 18:31:14.696354 INFO [simplewallet] 2017-12-24 15:28:30  e6d761f3a2a1467100ec7b517e8595c1de5add708d30908f5813c5cf495011d4       703625.70421241      0.00000000       23           83
+2017-Dec-24 18:31:14.696447 INFO [simplewallet]  
+2017-Dec-24 18:31:14.696519 INFO [simplewallet] 2017-12-24 15:28:48  8428f2eac6f67de855228a541f5751894793a4403abf452fcadb4c422bc19d4a       703623.02009336      0.00000000       24           84
+2017-Dec-24 18:31:14.696613 INFO [simplewallet]  
+2017-Dec-24 18:31:14.696690 INFO [simplewallet] 2017-12-24 15:29:48  efd9e05cd1f1306c0bee754c2d11e54c7fa7d26677a7c07263a57ea0367f3eb2       703620.33598455      0.00000000       25           85
+2017-Dec-24 18:31:14.696785 INFO [simplewallet]  
+2017-Dec-24 18:31:14.696858 INFO [simplewallet] 2017-12-24 15:30:06  d1fe474864fb64ea33f307d7a99de35b392e3341c6323ce1a250971c97366124       703617.65188597      0.00000000       26           86
+2017-Dec-24 18:31:14.696963 INFO [simplewallet]  
+2017-Dec-24 18:31:14.697033 INFO [simplewallet] 2017-12-24 15:30:30  1cd7ff4421b57926eb99b1e99a2a6f89455e7995cb6db67c6d85ed4dd80865f8       703614.96779764      0.00000000       27           87
+2017-Dec-24 18:31:14.697136 INFO [simplewallet]  
+2017-Dec-24 18:31:14.697209 INFO [simplewallet] 2017-12-24 15:31:30  1a20944ce7603ae02138a8103b21e8206b0f50776af73ead9d892f8603a78429       703612.28371955      0.00000000       28           88
+2017-Dec-24 18:31:14.697323 INFO [simplewallet]  
+2017-Dec-24 18:31:14.697398 INFO [simplewallet] 2017-12-24 15:33:24  fd1bb57b30c7ac2f0feb9741fa14e64a168353664fea20612ba9874911de875e       703609.59965169      0.00000000       29           89
+2017-Dec-24 18:31:14.697492 INFO [simplewallet]  
+2017-Dec-24 18:31:14.697564 INFO [simplewallet] 2017-12-24 15:34:30  7fb325658e1a7f4a5455605e079b1bd1fe514923ad9ae89e4066d2f84525974f       703606.91559408      0.00000000       30           90
+2017-Dec-24 18:31:14.697658 INFO [simplewallet]  
+2017-Dec-24 18:31:14.697730 INFO [simplewallet] 2017-12-24 15:34:42  0939f4387b0be9224bed7ea79b4052a3ee6ba378751abfccba6edc87617f563e       703604.23154670      0.00000000       31           91
+2017-Dec-24 18:31:14.697823 INFO [simplewallet]  
+2017-Dec-24 18:31:14.697905 INFO [simplewallet] 2017-12-24 15:35:18  219abe8230176d2169651f2bb0d8ce069b4f9bdca8a99d7bcf36c7b5cfb339be       703601.54750956      0.00000000       32           92
+2017-Dec-24 18:31:14.698000 INFO [simplewallet]  
+2017-Dec-24 18:31:14.698091 INFO [simplewallet] 2017-12-24 15:35:30  b80b4d2a98d29495d49f641fc4122659515124b8bdef59bdca5d622b154bf8b6       703598.86348266      0.00000000       33           93
+2017-Dec-24 18:31:14.698186 INFO [simplewallet]  
+2017-Dec-24 18:31:14.698258 INFO [simplewallet] 2017-12-24 15:36:00  7904d78e8975dc8f0c0e41a2258dc860680f49bbe30dd6a289fa86ff5f016198       703596.17946600      0.00000000       34           94
+2017-Dec-24 18:31:14.698351 INFO [simplewallet]  
+2017-Dec-24 18:31:14.698423 INFO [simplewallet] 2017-12-24 15:37:25  43f0a2532a7053f2714ff0efa9faa6ade13ce240a77baeef4055c462aaab2cda       703593.49545958      0.00000000       35           95
+2017-Dec-24 18:31:14.698516 INFO [simplewallet]  
+2017-Dec-24 18:31:14.698588 INFO [simplewallet] 2017-12-24 15:40:49  120d33e73547f524617f85b1c0e4f64b173f9b484f4565491d33f93cef0429fb       703590.81146340      0.00000000       36           96
+2017-Dec-24 18:31:14.698681 INFO [simplewallet]  
+2017-Dec-24 18:31:14.698752 INFO [simplewallet] 2017-12-24 15:42:07  0056e4dbd1e4fd369d93cf7d6785f9e0ecc95555c3ad8e880c33fb45961aa452       703588.12747745      0.00000000       37           97
+2017-Dec-24 18:31:14.698846 INFO [simplewallet]  
+2017-Dec-24 18:31:14.698918 INFO [simplewallet] 2017-12-24 15:43:01  ba9f12a5254a0bc8598ad5ca9eecc1baf7b985c1aa9ef8be61258b642f274cfe       703585.44350175      0.00000000       38           98
+2017-Dec-24 18:31:14.715264 INFO [simplewallet]  
+2017-Dec-24 18:31:14.715302 INFO [simplewallet] 2017-12-24 15:43:25  43ca0647395c6827b619f571c511d2c3de631f710982151f3c10bc3b86641199       703582.75953628      0.00000000       39           99
+2017-Dec-24 18:31:14.715338 INFO [simplewallet]  
+2017-Dec-24 18:31:14.715360 INFO [simplewallet] 2017-12-24 15:48:32  8516c3c5b3770957870edfaa45e2dc84576c7225670965112b493010132b161b       703580.07558105      0.00000000       40          100
+2017-Dec-24 18:31:14.715393 INFO [simplewallet]  
+2017-Dec-24 18:31:14.715416 INFO [simplewallet] 2017-12-24 15:49:44  d0405d066d400a38678ef0f1455d4e4ca9c3fe6d797f83f39ba5e22d9d6a2319       703577.39163606      0.00000000       41          101
+2017-Dec-24 18:31:14.715449 INFO [simplewallet]  
+2017-Dec-24 18:31:14.715471 INFO [simplewallet] 2017-12-24 15:51:26  8159881f10e3511bd17d999a892f655cea997650fd3d3d18d1bc52b938c757b2       703574.70770131      0.00000000       42          102
+2017-Dec-24 18:31:14.715503 INFO [simplewallet]  
+2017-Dec-24 18:31:14.715525 INFO [simplewallet] 2017-12-24 15:55:08  9bf6097728a0009269cfb8d9263b87b9d918848488a8af0ed4296f607edaa83b       703572.02377679      0.00000000       43          103
+2017-Dec-24 18:31:14.715558 INFO [simplewallet]  
+2017-Dec-24 18:31:14.715580 INFO [simplewallet] 2017-12-24 15:55:12  5029d9f1e44aeb21d520897042b28e28e979877ad264805a33090350e65927b7       703569.33986252      0.00000000       44          104
+2017-Dec-24 18:31:14.715612 INFO [simplewallet]  
+2017-Dec-24 18:31:14.715635 INFO [simplewallet] 2017-12-24 15:56:45  7be6b727b5e15958d21940726a8ec0e8a3fa28476cc0c3702e0164b11157b930       703566.65595848      0.00000000       45          105
+2017-Dec-24 18:31:14.715667 INFO [simplewallet]  
+2017-Dec-24 18:31:14.715689 INFO [simplewallet] 2017-12-24 15:56:51  9f1639effaaf110dc459b4a9bf364fdaef8a24258e244008fb4e7cb2b9779986       703563.97206468      0.00000000       46          106
+2017-Dec-24 18:31:14.715721 INFO [simplewallet]  
+2017-Dec-24 18:31:14.715743 INFO [simplewallet] 2017-12-24 15:57:52  8e5d5726968ac39ffb6baecbad7bbf5567b173bbefdc44ea3f40dedba95dabf5       703561.28818112      0.00000000       47          107
+2017-Dec-24 18:31:14.715775 INFO [simplewallet]  
+2017-Dec-24 18:31:14.715797 INFO [simplewallet] 2017-12-24 15:59:34  7a0536b2d69ae2278b287ecdda2c15aa058d3935bfee2877566c3b0a2fed7748       703558.60430780      0.00000000       48          108
+2017-Dec-24 18:31:14.715830 INFO [simplewallet]  
+2017-Dec-24 18:31:14.715852 INFO [simplewallet] 2017-12-24 16:01:29  4b3b6656addba2995153ea4e6706202e803748351ba2c6d74462382a00e014ab       703555.92044472      0.00000000       49          109
+2017-Dec-24 18:31:14.715893 INFO [simplewallet]  
+2017-Dec-24 18:31:14.715917 INFO [simplewallet] 2017-12-24 16:08:14  fe1c3be965ca5ba1fb1194b3db06509d16f0d382de75e246eb35c7323c1f7560       703553.23659187      0.00000000       50          110
+2017-Dec-24 18:31:14.715950 INFO [simplewallet]  
+2017-Dec-24 18:31:14.715972 INFO [simplewallet] 2017-12-24 16:10:02  47aaa704e4c99122a1a600b3b98f3d336047e5569f38504267b7f7f4d9614b59       703550.55274926      0.00000000       51          111
+2017-Dec-24 18:31:14.716005 INFO [simplewallet]  
+2017-Dec-24 18:31:14.716027 INFO [simplewallet] 2017-12-24 16:25:14  332152c9bc2cd9284377958c4978e5dad4283dc30393d47f8cc30c7105c18134       703547.86891689      0.00000000       52          112
+2017-Dec-24 18:31:14.716059 INFO [simplewallet]  
+2017-Dec-24 18:31:14.716080 INFO [simplewallet] 2017-12-24 16:25:26  eeb24c957ff57f95f6d3e036a9deb93f30e9ce6f827afc0aeff7578534a4952c       703545.18509476      0.00000000       53          113
+2017-Dec-24 18:31:14.716113 INFO [simplewallet]  
+2017-Dec-24 18:31:14.716135 INFO [simplewallet] 2017-12-24 16:28:21  d286c462aa3ae6de6b323ff95b93a5585e36841798f15f358596c8629c160ef9       703542.50128287      0.00000000       54          114
+2017-Dec-24 18:31:14.716167 INFO [simplewallet]  
+2017-Dec-24 18:31:14.716189 INFO [simplewallet] 2017-12-24 16:31:16  e6b9c652b465a8c50e9d2f9f5fb945a2b639cd622748b99aa2ae94010f0da5e1       703539.81748121      0.00000000       55          115
+2017-Dec-24 18:31:14.716221 INFO [simplewallet]  
+2017-Dec-24 18:31:14.716243 INFO [simplewallet] 2017-12-24 16:38:30  da1dba3ce8cd7317655425212431bf1b8a4e6d8b38f1f8602a19a0d5ffc9190f       703537.13368979      0.00000000       56          116
+2017-Dec-24 18:31:14.716275 INFO [simplewallet]  
+2017-Dec-24 18:31:14.716297 INFO [simplewallet] 2017-12-24 16:38:32  3a6949a5225877c1e9c723b74d13dfaff26f5aff90acd36f1889c03b526b06f5       703534.44990861      0.00000000       57          117
+2017-Dec-24 18:31:14.716330 INFO [simplewallet]  
+2017-Dec-24 18:31:14.716351 INFO [simplewallet] 2017-12-24 16:39:48  9f873b6b1c1cfee8ecb29e39842a3f754aeb65f235f8423dba6c54eea03e55f5       703531.76613767      0.00000000       58          118
+2017-Dec-24 18:31:14.716384 INFO [simplewallet]  
+2017-Dec-24 18:31:14.716406 INFO [simplewallet] 2017-12-24 16:42:31  7b8fcd0bdfccf233eeb577a8c8d7b59f931ab1316bb2a887a53efd9b1582dee4       703529.08237697      0.00000000       59          119
+2017-Dec-24 18:31:14.716438 INFO [simplewallet]  
+2017-Dec-24 18:31:14.716460 INFO [simplewallet] 2017-12-24 16:44:43  33a593a1422c6059544829626511ff9e400cc454d0680a151deb9f5f92bc81a6       703526.39862650      0.00000000       60          120
+2017-Dec-24 18:31:14.716492 INFO [simplewallet]  
+2017-Dec-24 18:31:14.716514 INFO [simplewallet] 2017-12-24 16:46:32  1ab71f29d2f30c1ad602301eaaf3e2a5e8caa8a23624567ed6a215d06c7645bf       703523.71488627      0.00000000       61          121
+2017-Dec-24 18:31:14.716546 INFO [simplewallet]  
+2017-Dec-24 18:31:14.716568 INFO [simplewallet] 2017-12-24 16:46:51  7a683b5cea96275727d90f791e2febdfae240229e41bf75b492fde07a357d6e6       703521.03115628      0.00000000       62          122
+2017-Dec-24 18:31:14.716600 INFO [simplewallet]  
+2017-Dec-24 18:31:14.716622 INFO [simplewallet] 2017-12-24 16:55:42  92e2ed9fa4780096870a74bdf62b61bd8488e9345693562a04f82d79fa6d26d9       703518.34743652      0.00000000       63          123
+2017-Dec-24 18:31:14.716657 INFO [simplewallet]  
+2017-Dec-24 18:31:14.716681 INFO [simplewallet] 2017-12-24 16:55:55  6ef7ad3212b55425f0f00d59f3fd32843134aaa6888cf34a1fad9a03bad63143       703515.66372701      0.00000000       64          124
+2017-Dec-24 18:31:14.716713 INFO [simplewallet]  
+2017-Dec-24 18:31:14.716735 INFO [simplewallet] 2017-12-24 17:14:47  4bf3eb928b1eaff8553da22e06e390b04cde32168e645bf21d3b73092bc54cf2       703512.98002773      0.00000000       65          125
+2017-Dec-24 18:31:14.716767 INFO [simplewallet]  
+2017-Dec-24 18:31:14.716790 INFO [simplewallet] 2017-12-24 17:15:29  931868d59a6511dfd51c8ad220be4e0c724ea85e105f8498d0810bf37cdc3aff       703510.29633869      0.00000000       66          126
+2017-Dec-24 18:31:14.716825 INFO [simplewallet]  
+2017-Dec-24 18:31:14.716849 INFO [simplewallet] 2017-12-24 17:18:17  fd328a04bdfd954e92a4e626d2b14c103f95b20efd8dceedd47b40c201663981       703507.61265988      0.00000000       67          127
+2017-Dec-24 18:31:14.716881 INFO [simplewallet]  
+2017-Dec-24 18:31:14.716903 INFO [simplewallet] 2017-12-24 17:32:21  9055c1fdc315f46729ca20eb0e9a03274c40362cda26628c517f5f987dedb4e5       703504.92899132      0.00000000       68          128
+2017-Dec-24 18:31:14.716936 INFO [simplewallet]  
+2017-Dec-24 18:31:14.716958 INFO [simplewallet] 2017-12-24 17:32:27  6d1037744cfbb9718d3725d789b1b469d56d5d26e512b339375915bc5ae37d5a       703502.24533299      0.00000000       69          129
+2017-Dec-24 18:31:14.716990 INFO [simplewallet]  
+2017-Dec-24 18:31:14.717011 INFO [simplewallet] 2017-12-24 17:39:58  bcd860c3661b62b1dc27adc7790fc8689f9ed8712a3426c4ca86acbffc44c82f       703499.56168490      0.00000000       70          130
+2017-Dec-24 18:31:14.717043 INFO [simplewallet]  
+2017-Dec-24 18:31:14.717065 INFO [simplewallet] 2017-12-24 17:41:04  a4f6f834637ebccdcbc411a1920420cbe4d4808e10760b525b59e5228abf4f58       703496.87804704      0.00000000       71          131
+2017-Dec-24 18:31:14.717097 INFO [simplewallet]  
+2017-Dec-24 18:31:14.717119 INFO [simplewallet] 2017-12-24 17:45:24  75bf50651dd7446fe2672940eb972303b3e01c3c9b08c66acd678c68c2b1179c       703494.19441943      0.00000000       72          132
+2017-Dec-24 18:31:14.717151 INFO [simplewallet]  
+2017-Dec-24 18:31:14.717172 INFO [simplewallet] 2017-12-24 17:48:13  e3672ecf897dcfdb5ffd31d48914c6b79ea9f806e47e47f43c88ad4f3bfbee3e       703491.51080205      0.00000000       73          133
+2017-Dec-24 18:31:14.717205 INFO [simplewallet]  
+2017-Dec-24 18:31:14.717227 INFO [simplewallet] 2017-12-24 17:50:20  4829b743f273b7a7218b12cddd539e0ee86e762a5ea07e7438e7fdec1fc313ee       703488.82719490      0.00000000       74          134
+2017-Dec-24 18:31:14.717259 INFO [simplewallet]  
+2017-Dec-24 18:31:14.717299 INFO [simplewallet] 2017-12-24 17:53:20  83130216060eceb1f6ae130f71e442509cc91daefba669c7cbaffb12e419fde6       703486.14359800      0.00000000       75          135
+2017-Dec-24 18:31:14.717333 INFO [simplewallet]  
+2017-Dec-24 18:31:14.717356 INFO [simplewallet] 2017-12-24 17:55:09  fae09d122de02d0d980a6c5d2f967e2a7418dc7ab581f21b0b0bad96432d0b77       703483.46001133      0.00000000       76          136
+2017-Dec-24 18:31:14.717388 INFO [simplewallet]  
+2017-Dec-24 18:31:14.717410 INFO [simplewallet] 2017-12-24 17:59:17  8ba7f4e2504c4782d2d90c8529785fcd9bb52ba7cda0476a2f620635801a2630       703480.77643490      0.00000000       77          137
+2017-Dec-24 18:31:14.717442 INFO [simplewallet]  
+2017-Dec-24 18:31:14.717464 INFO [simplewallet] 2017-12-24 18:01:35  9624fcb6fcb72480f514f89638520228c2a9e57dbdb55924d288c459525b7526       703478.09286870      0.00000000       78          138
+2017-Dec-24 18:31:14.717498 INFO [simplewallet]  
+2017-Dec-24 18:31:14.717520 INFO [simplewallet] 2017-12-24 18:03:18  9045ae6b51907b188a7aebc719a12f5b03e0fe05ce8204e247e7e765cef8ed6c       703475.40931275      0.00000000       79          139
+2017-Dec-24 18:31:14.717551 INFO [simplewallet]  
+2017-Dec-24 18:31:14.717573 INFO [simplewallet] 2017-12-24 18:08:27  11d5b46e4c0dfe640788b73c826221e10f61441c223ab0006651e06bee82d182       703472.72576703      0.00000000       80          140
+2017-Dec-24 18:31:14.717605 INFO [simplewallet]  
+2017-Dec-24 18:31:14.717628 INFO [simplewallet] 2017-12-24 18:08:45  4c02f5760fc4c3091e1b092334b966bba7ccba81d9ddde1e47998c5444a38d6d       703470.04223154      0.00000000       81          141
+2017-Dec-24 18:31:14.717660 INFO [simplewallet]  
+2017-Dec-24 18:31:14.717682 INFO [simplewallet] 2017-12-24 18:09:21  1e9f59cb3d5c99851093315f006d6cdfe180834bd301c0347c23a3aaf3b0ac69       703467.35870630      0.00000000       82          142
+2017-Dec-24 18:31:14.717713 INFO [simplewallet]  
+2017-Dec-24 18:31:14.717735 INFO [simplewallet] 2017-12-24 18:10:22  9f4efdce8caafb1c04763d627dbe10abd67ff8aa1e09d60e3ada0c74b17280f4       703464.67519129      0.00000000       83          143
+2017-Dec-24 18:31:14.717771 INFO [simplewallet]  
+2017-Dec-24 18:31:14.717795 INFO [simplewallet] 2017-12-24 18:16:06  5ffbd947678f99b61b047b6d0a1a463e5d597b8426fdeeb2be64d5a1050f04e4       703461.99168651      0.00000000       84          144
+2017-Dec-24 18:31:14.717828 INFO [simplewallet]  
+2017-Dec-24 18:31:14.717850 INFO [simplewallet] 2017-12-24 18:16:54  c4ff5d996a4de1ebe4450bd37ba06bd2e7d7ae65e307d7987801e9949321ed0b       703459.30819198      0.00000000       85          145
+2017-Dec-24 18:31:14.717882 INFO [simplewallet]  
+2017-Dec-24 18:31:14.717904 INFO [simplewallet] 2017-12-24 18:18:36  1ef4b0b354c482aae354dc1dd1dbfc4c3567d34ca1ac47c42a8b982b66c8c9f9       703456.62470768      0.00000000       86          146
+2017-Dec-24 18:31:14.717936 INFO [simplewallet]  
+2017-Dec-24 18:31:14.717958 INFO [simplewallet] 2017-12-24 18:19:18  b49a118fc5f900f8e2c44469157dfda2fe4ca3738ca9e6fc3d1ebe5a141a3367       703453.94123361      0.00000000       87          147
+2017-Dec-24 18:31:14.717990 INFO [simplewallet]  
+2017-Dec-24 18:31:14.718012 INFO [simplewallet] 2017-12-24 18:20:55  3f0a16dbd9c68a3f4e29553436f0df6fe87c011f2ffe03c986dcc75ecf19695e       703451.25776979      0.00000000       88          148
+2017-Dec-24 18:31:14.718047 INFO [simplewallet]  
+2017-Dec-24 18:31:14.718071 INFO [simplewallet] 2017-12-24 18:23:20  7c527c16f9326d750498532daaf08a4848768a6ddb5bc68b41fd5fdc3adb80ba       703448.57431620      0.00000000       89          149
+2017-Dec-24 18:31:14.718103 INFO [simplewallet]  
+2017-Dec-24 18:31:14.718125 INFO [simplewallet] 2017-12-24 18:23:32  a301f35f26d3ebf736088c0ba6d43de30c32e8455709dd5677d316e52469fd40       703445.89087285      0.00000000       90          150
+2017-Dec-24 18:31:14.718157 INFO [simplewallet]  
+2017-Dec-24 18:31:14.718180 INFO [simplewallet] 2017-12-24 18:23:50  11f92b0dac628cb58e83ab1db7bbb437d896498a2390ea73c3f9f4cdbacc909f       703443.20743973      0.00000000       91          151
+2017-Dec-24 18:31:14.718212 INFO [simplewallet]  
+2017-Dec-24 18:31:14.718233 INFO [simplewallet] 2017-12-24 18:27:21  fb92d8237d8d6f8736aa9560215a0df74ad3e04ad729cc43491e1de10b34132e       703440.52401685      0.00000000       92          152
+2017-Dec-24 18:31:14.718265 INFO [simplewallet]  
+2017-Dec-24 18:31:14.718287 INFO [simplewallet] 2017-12-24 18:30:04  2479a48f0f5ba1c798ab5799759f709240ec4b8bb312e83cd4b5e4b987af7b76       703437.84060421      0.00000000       93          153
+2017-Dec-24 18:31:14.718319 INFO [simplewallet]  
+2017-Dec-24 18:31:14.718341 INFO [simplewallet] 2017-12-24 18:30:46  779c6e5df46409c5c1ad73d23ecf6b6114c91b0df60e2a9f8198581677ae2b8b       703435.15720180      0.00000000       94          154
+2017-Dec-24 18:31:14.718373 INFO [simplewallet]  
+2017-Dec-24 18:31:14.718395 INFO [simplewallet] 2017-12-24 18:31:04  22b944eb8849ff108b7e624bfe599b726c22c34d9de03d91342d4706838264af       703432.47380963      0.00000000       95          155
+2017-Dec-24 18:31:14.718427 INFO [simplewallet]  
+2017-Dec-24 18:31:22.369954 INFO [simplewallet] Commands: 
+  address              Show current wallet public address
+  balance              Show current wallet balance
+  bc_height            Show blockchain height
+  exit                 Close wallet
+  help                 Show this help
+  incoming_transfers   Show incoming transfers
+  list_transfers       Show all known transfers
+  payments             payments <payment_id_1> [<payment_id_2> ... <payment_id_N>] - Show payments <payment_id_1>, ... <payment_id_N>
+  reset                Discard cache data and start synchronizing from the start
+  save                 Save wallet synchronized data
+  set_log              set_log <level> - Change current log level, <level> is a number 0-4
+  start_mining         start_mining [<number_of_threads>] - Start mining in daemon
+  stop_mining          Stop mining in daemon
+  transfer             transfer <mixin_count> <addr_1> <amount_1> [<addr_2> <amount_2> ... <addr_N> <amount_N>] [-p payment_id] [-f fee] - Transfer <amount_1>,... <amount_N> to <address_1>,... <address_N>, respectively. <mixin_count> is the number of transactions yours is indistinguishable from (from 0 to maximum available)
+  
+
+2017-Dec-24 18:32:33.209440 INFO [simplewallet] Height 96, transaction ec7b7d568cbb08414c79d87ce3178ab36a40d79df1f0eb57f7e533ad682a9b3b, received 703429.79042769
+2017-Dec-24 18:37:13.853901 INFO [simplewallet] Height 97, transaction 61377bc17fae1c6abe7a4f4c008e84ee245a324144791f722ccc7b392e486a3b, received 703427.10705600
+2017-Dec-24 18:42:14.569936 INFO [simplewallet] Height 98, transaction ccf42a4f6f41cdd83670b37059da02129d457bb421ddaf97593869120fcd365b, received 703424.42369453
+2017-Dec-24 18:43:39.667447 ERROR [simplewallet] Error: wallet failed to connect to daemon (http://localhost:18232).
+2017-Dec-24 19:01:21.445784 INFO [simplewallet] Wallet closed
+2017-Dec-26 00:06:06.232449 INFO [simplewallet] londoncoin wallet v1.1.1.1()
+2017-Dec-26 00:06:24.998326 ERROR [simplewallet] Error: failed to read wallet password
+2017-Dec-26 00:06:24.998488 ERROR [simplewallet] Failed to initialize wallet
+2017-Dec-26 00:06:36.027048 INFO [simplewallet] londoncoin wallet v1.1.1.1()
+2017-Dec-26 00:06:55.008527 ERROR [simplewallet] Error: failed to read wallet password
+2017-Dec-26 00:06:55.008690 ERROR [simplewallet] Failed to initialize wallet
+2017-Dec-26 00:07:00.177499 INFO [simplewallet] londoncoin wallet v1.1.1.1()
+2017-Dec-26 00:07:14.234239 ERROR [simplewallet] Error: failed to read wallet password
+2017-Dec-26 00:07:14.234400 ERROR [simplewallet] Failed to initialize wallet
+2017-Dec-26 00:07:21.439173 INFO [simplewallet] londoncoin wallet v1.1.1.1()
+2017-Dec-26 00:07:32.079485 INFO [simplewallet] Loading wallet...
+2017-Dec-26 00:07:32.109598 INFO [simplewallet] Opened wallet: cz3PTmbSgX7Md9JgTomKcTj6yS4mghP4oMZ9hjTos8Z67qLeP4dwakqE4EprMxVPGvVwaAwMunxijgTCqJ44yheq2qyDvqzwp
+2017-Dec-26 00:07:32.109762 INFO [simplewallet] **********************************************************************
+Use "help" command to see the list of available commands.
+**********************************************************************
+2017-Dec-26 00:07:38.352373 INFO [simplewallet] Wallet closed
+2017-Dec-26 00:09:37.150211 INFO [simplewallet] londoncoin wallet v1.1.1.1()
+2017-Dec-26 00:09:37.150536 INFO [simplewallet] Loading wallet...
+2017-Dec-26 00:09:37.178637 INFO [simplewallet] Opened wallet: cz3PTmbSgX7Md9JgTomKcTj6yS4mghP4oMZ9hjTos8Z67qLeP4dwakqE4EprMxVPGvVwaAwMunxijgTCqJ44yheq2qyDvqzwp
+2017-Dec-26 00:09:37.178755 INFO [simplewallet] **********************************************************************
+Use "help" command to see the list of available commands.
+**********************************************************************
+2017-Dec-26 00:11:17.229825 INFO [simplewallet] Height 99, transaction 7423efae9b50a4c33cced7e4b2b0315821acc07f9befbdb482c9c4a07769ce70, received 703421.74034331
+2017-Dec-26 00:11:17.229972 INFO [simplewallet] Height 100, transaction 97d32fd3efa148c0150fe7ce546f63507a6a9e0a4afd1b6ac6f8f2d7c8e3b481, received 703419.05700232
+2017-Dec-26 00:11:17.230055 INFO [simplewallet] Height 101, transaction 65973da36a503f62c2da82ccc91947e428137d407023c9ea4a9a315b332041fc, received 703416.37367157
+2017-Dec-26 00:11:22.213402 INFO [simplewallet] Height 102, transaction 8231398a7e37d8bb50a732c1cd6320de50357883e2121ed1a30cda2074f1a302, received 703413.69035105
+2017-Dec-26 00:11:27.209243 INFO [simplewallet] Height 103, transaction 5e226e6a55378e9b52c1c9f0289ff4ece30ba0f06a5bd4aa4f001ed64f867938, received 703411.00704077
+2017-Dec-26 00:11:27.209395 INFO [simplewallet] Height 104, transaction dd5960374ade5f8da0a02129187a4dbd1c1ff8a8dee351efad355319ae8d297a, received 703408.32374072
+2017-Dec-26 00:12:07.228563 INFO [simplewallet] Height 105, transaction 4df823b0351d7db4efec8c1fb135f7bcf93e12e15e9cf5f5778c90b07dc158c7, received 703405.64045091
+2017-Dec-26 00:12:07.228703 INFO [simplewallet] Height 106, transaction eb7c122862f4b6563f65f167b288bfed2c431736fd390f8936b49bcc97b3fedf, received 703402.95717134
+2017-Dec-26 00:12:07.228807 INFO [simplewallet] Height 107, transaction ab0bd430c4e41a98659e68b15da77ed1620840408e9488bb864e53ea31c7de06, received 703400.27390200
+2017-Dec-26 00:12:12.262756 INFO [simplewallet] Height 108, transaction cda2084b8d4dd3245ea78b17e87339b92c3fd237720b01997f56b850188b6abd, received 703397.59064290
+2017-Dec-26 00:12:12.262918 INFO [simplewallet] Height 109, transaction b156a31c8140855b8f47369a7a65de0027fcd55ba03c8e296211f8bf4f540f17, received 703394.90739404
+2017-Dec-26 00:12:12.262999 INFO [simplewallet] Height 110, transaction da9aee347d357544d7f2bc277332093cdcfefdeb05e1c5747090f9d3e8387a27, received 703392.22415541
+2017-Dec-26 00:12:12.263072 INFO [simplewallet] Height 111, transaction 2fa81edf34c24a93fe8fe90076316a21ef9932ec4b66cb548d1b441d9157c99d, received 703389.54092701
+2017-Dec-26 00:12:12.263144 INFO [simplewallet] Height 112, transaction d7a8fdb84de344249b7eef8f60e1f1fd86f2c4885c4e5cbac0ec77d587664035, received 703386.85770885
+2017-Dec-26 00:12:12.263214 INFO [simplewallet] Height 113, transaction 33c41c190d08b783e42a94a698eed622306c62d92c302c32b16841d7f00b6ee0, received 703384.17450093
+2017-Dec-26 00:12:12.263282 INFO [simplewallet] Height 114, transaction 419380e8078ca13c9330382ee298424bf2e4d6daca7708c7321cbe908b0f0625, received 703381.49130324
+2017-Dec-26 00:12:22.217437 INFO [simplewallet] Height 115, transaction 3cfaf9da8e68debd29be247066fe9c7233a20e5061fb61c6c53a3f0e9391fde5, received 703378.80811579
+2017-Dec-26 00:12:27.221862 INFO [simplewallet] Height 116, transaction cdd6430a746cca57baf4d4af3ee4baad9ef71f3a6d06b39203696e7317044c59, received 703376.12493858
+2017-Dec-26 00:12:32.229932 INFO [simplewallet] Height 117, transaction f8204ab87e25c4a3b230c98af13c09c69ad857114c40f33f61c3562ae7b121de, received 703373.44177159
+2017-Dec-26 00:12:32.230085 INFO [simplewallet] Height 118, transaction 6c4b3169153129166669656ad2066bc47501ddf8564d172a4db2847daf88e6b3, received 703370.75861485
+2017-Dec-26 00:12:37.221386 INFO [simplewallet] Height 119, transaction 5898926df774bc9fa292958492b9535e47dc72fb87e2d3cdd36923f46aa15e08, received 703368.07546834
+2017-Dec-26 00:12:42.253871 INFO [simplewallet] Height 120, transaction b66d94c2ea24eef0c1cc5ff6d4710baf518719da2c0fb5bbc104e06200744ecb, received 703365.39233207
+2017-Dec-26 00:12:42.254021 INFO [simplewallet] Height 121, transaction edd7a88d05cfade9a6df4b93b94dd8bd01c7d3e692d83276743daf0c547c079f, received 703362.70920603
+2017-Dec-26 00:12:42.254102 INFO [simplewallet] Height 122, transaction 2c7b524a56493532f54b1939a406046d783bfb33c36fa5dcae6f06157525bc6c, received 703360.02609022
+2017-Dec-26 00:12:42.254175 INFO [simplewallet] Height 123, transaction f0f13fd0630f57a6a1208e672cea733d1291da825ad2082ef7dfdf9d7928e3f9, received 703357.34298466
+2017-Dec-26 00:12:42.254247 INFO [simplewallet] Height 124, transaction 2a4ad4cc7c928490135306a2fce46b142cdad764593226394802f1ed0ebe9919, received 703354.65988932
+2017-Dec-26 00:12:47.230367 INFO [simplewallet] Height 125, transaction 8410aafa6caeff97ad517740034783989cb23e679a9b2ec01b18bd385b323e4b, received 703351.97680422
+2017-Dec-26 00:12:47.230511 INFO [simplewallet] Height 126, transaction bf22a2c53f84a569cb688f8fa85e5611826ae1ef865f82fc0e4b0e08ac43f791, received 703349.29372936
+2017-Dec-26 00:12:52.230053 INFO [simplewallet] Height 127, transaction 9087ec3325829697c467fbbdf52a421ff0043266ce0908d65b95bc6a7ea49a5e, received 703346.61066473
+2017-Dec-26 00:12:52.230188 INFO [simplewallet] Height 128, transaction 725f2ad767a2bca78bc6c5de57c52c9cb4be029449f69de79efa1f9e84abf518, received 703343.92761034
+2017-Dec-26 00:12:57.218513 INFO [simplewallet] Height 129, transaction 3416102b9b2489bb6b38519d5ba37b40fd5bbbb093616b815a76f012f2de8ca4, received 703341.24456618
+2017-Dec-26 00:12:57.218652 INFO [simplewallet] Height 130, transaction cbb207cfa14fdac4b560a975503ad0eee056ec3807e92ed2eadfa3acd54935a1, received 703338.56153226
